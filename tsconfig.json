@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@text-motion/ui/components": ["libs/ui/src/lib/*"] //for use with shadcn
+    }
+  },
+  "extends": "./tsconfig.base.json"
+}
