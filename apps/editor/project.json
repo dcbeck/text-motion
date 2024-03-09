@@ -1,0 +1,8 @@
+{
+  "name": "editor",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/editor/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
