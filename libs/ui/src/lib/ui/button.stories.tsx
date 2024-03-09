@@ -10,6 +10,7 @@ const meta: Meta<typeof Button> = {
   argTypes: {
     onClick: { action: 'onClick' },
   },
+  render: (props) => <Button {...props}>Test</Button>,
 };
 export default meta;
 type Story = StoryObj<typeof Button>;
