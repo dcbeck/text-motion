@@ -5,9 +5,13 @@ export interface UiProps {}
 
 export function Ui(props: UiProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Ui!</h1>
-    </div>
+    <>
+      {' '}
+      <div className={styles['container']}>
+        <h1 className="text-red-500">Welcome to Ui!</h1>
+      </div>
+      <div className="text-orange-500">45454</div>
+    </>
   );
 }
 
